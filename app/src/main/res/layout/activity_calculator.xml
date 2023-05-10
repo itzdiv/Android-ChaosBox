@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.94"
+    android:background="@drawable/y"
+    android:foregroundTint="#FBFBFB">
+    >
+
+    <EditText
+        android:id="@+id/number1_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Enter first number"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/number2_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number1_editText"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Enter second number"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number2_editText"
+        android:layout_marginTop="32dp"
+        android:text="+"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/subtract_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number2_editText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@id/add_button"
+        android:text="-"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/multiply_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_button"
+        android:layout_marginTop="16dp"
+        android:text="*"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/divide_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/multiply_button"
+        android:text="/"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/result_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/multiply_button"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:enabled="false"
+        android:foregroundTint="#F8F5F5"
+        android:hint="Result"
+        android:shadowColor="#FFF7F7"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFEFE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="goBack"
+        android:text="Back" />
+
+</RelativeLayout>
