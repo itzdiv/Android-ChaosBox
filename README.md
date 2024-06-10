@@ -1,6 +1,11 @@
 # Android-ChaosBox
 Just a project with randomness filled with it.
 
+<p align="center">
+  <img src="path_to_gif1.gif" width="400" alt="Gif 1">
+  <img src="path_to_gif2.gif" width="400" alt="Gif 2">
+</p>
+
 Firebase Fun App
 This project is a web app that allows users to register and log in to their accounts using Firebase authentication. The app features various fun and recreational activities, such as gifs, voice, calculator, tic tac toe game, and more.
 
