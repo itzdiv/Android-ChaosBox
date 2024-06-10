@@ -8,6 +8,7 @@ Just a project with randomness filled with it.
   <img src="https://github.com/itzdiv/Android-ChaosBox/blob/master/Render_folder/main%20ss2.png" width="200" alt="Screenshot 2"> 
 </p>
 
+
 Firebase Fun App
 This project is a web app that allows users to register and log in to their accounts using Firebase authentication. The app features various fun and recreational activities, such as gifs, voice, calculator, tic tac toe game, and more.
 
