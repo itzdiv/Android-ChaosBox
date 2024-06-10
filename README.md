@@ -2,8 +2,8 @@
 Just a project with randomness filled with it.
 
 <p align="center">
-  <img src="path_to_gif1.gif" width="400" alt="Gif 1">
-  <img src="path_to_gif2.gif" width="400" alt="Gif 2">
+  <img src="https://github.com/itzdiv/Android-ChaosBox/blob/master/Render_folder/login.gif" width="400" alt="Gif 1">
+  <img src="https://github.com/itzdiv/Android-ChaosBox/blob/master/Render_folder/register.gif" width="400" alt="Gif 2">
 </p>
 
 Firebase Fun App
